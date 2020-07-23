@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+
+<!-- 轮播图 -->
+<MySwiper list="{{banners}}" />
+
+<!-- 推荐 -->
+<MyRecommend list="{{recommends}}" bind:imageLoad="imageLoad" />
+
+<!-- 本周流行 -->
+<MyPopular />
+
+<!-- tab-control -->
+<MyTabControl titles="{{titles}}" 
+							bind:tabClick="tabClick"
+							class="{{isTabFixed ? 'fixed' : ''}}" 
+							id="tab-control" />
+<MyTabControl titles="{{titles}}" wx:if="{{isTabFixed}}" />
+
+<!-- 商品 -->
+<MyGoods goodslist="{{goods[currentType].list}}" />
+
+<!-- 回到顶部 -->
+<MyBackTop wx:if="{{isBackTop}}" />

@@ -1,0 +1,12 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view class="detail" scroll-y>
+	<MySwiper class="swiper" list="{{topImages}}" /> <!-- 轮播图 -->
+	<MyBaseInfo baseInfo="{{baseInfo}}" /> <!-- 商品描述 -->
+	<MyShopInfo shopInfo="{{shopInfo}}" /> <!-- 店铺信息 -->
+	<MyDetailInfo detailInfo="{{detailInfo}}" /> <!-- 商品详细图片 -->
+	<MyParamInfo paramInfo="{{paramInfo}}" /> <!-- 商品尺寸信息 -->
+	<MyCommentInfo commentInfo="{{commentInfo}}" /> <!-- 用户评价 -->
+	<MyRecommendInfo recommends="{{recommends}}" /> <!-- 商品推荐数据 -->
+</scroll-view>
+
+<MyBottomBar bind:addCart="addCart" />

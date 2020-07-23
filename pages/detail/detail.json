@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "MySwiper": "/components/swiper/MySwiper",
+    "MyBaseInfo": "./base-info/MyBaseInfo",
+    "MyShopInfo": "./shop-info/MyShopInfo",
+    "MyDetailInfo": "./detail-info/MyDetailInfo",
+    "MyParamInfo": "./param-info/MyParamInfo",
+    "MyCommentInfo": "./comment-info/MyCommentInfo",
+    "MyRecommendInfo": "./recommend-info/MyRecommendInfo",
+    "MyBottomBar": "./bottom-bar/MyBottomBar"
+  },
+  "navigationBarTitleText": "商品详情"
+}

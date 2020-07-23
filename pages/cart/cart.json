@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "MyCartListItem": "./cart-list-item/MyCartListItem",
+    "MyBottomBar": "./bottom-bar/MyBottomBar"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "MyHead": "./childCopms/head/MyHead",
+    "MyMiddle": "./childCopms/middle/MyMiddle",
+    "MyList": "./childCopms/list/MyList"
+  },
+  "navigationBarTitleText": "我的信息"
+}

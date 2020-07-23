@@ -1,0 +1,7 @@
+<!--pages/profile/profile.wxml-->
+<view class='profile'>
+	<MyHead />
+	<MyMiddle />
+	<MyList list="{{orderList}}" />
+	<MyList list="{{serviceList}}" />
+</view>	

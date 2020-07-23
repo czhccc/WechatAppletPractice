@@ -1,0 +1,6 @@
+/* pages/cart/check-icon/MyCheckIcon.wxss */
+.icon {
+	border: 2px solid #aaa;
+  border-radius: 20px;
+  margin-right: 10rpx;
+}

@@ -1,0 +1,22 @@
+<!--pages/category/childComps/MyContent/MyContent.wxml-->
+<scroll-view class='content' scroll-y>
+  <!-- 分类 -->
+  <view class='subcategory'>
+    <block wx:for="{{subcategories}}" wx:key="index">
+      <view class='item'>
+        <image src="{{item.image}}" mode='widthFix'/>
+        <view>{{item.title}}</view>
+      </view>
+    </block>
+  </view>
+
+  <!-- tab-control -->
+  <MyTabControl titles="{{['流行', '新款', '精选']}}"
+                bind:tabClick="tabClick"
+                />
+
+  <!-- 商品 -->
+  <view class='detail'>
+    <MyGoods goodslist="{{categoryDetail}}"/>
+  </view>
+</scroll-view>

@@ -1,0 +1,10 @@
+<!--pages/category/category.wxml-->
+<view class='category'>
+  <MyMenu class='MyMenu'
+          categories="{{categories}}"
+          bind:menuclick="menuClick" />
+  <MyContent class='MyContent'
+             subcategories="{{categoryData[menuIndex].subcategories}}"
+             categoryDetail="{{categoryData[menuIndex].categoryDetail[tabControlIndex]}}"
+             bind:changeGoods="changeGoods" />
+</view>

@@ -1,0 +1,22 @@
+/* pages/profile/childCopms/middle/MyMiddle.wxss */
+.middle {
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+	background: #f8f8f8;
+	font-size: 28rpx;
+}
+
+.item {
+	width: 33%;
+	background: white;
+	padding: 50rpx 0;
+}
+
+.number {
+	color: #ff5f3e;
+	font-size: 40rpx;
+	font-weight: 700;
+	line-height: 1.5;
+	margin-right: 10rpx;
+}

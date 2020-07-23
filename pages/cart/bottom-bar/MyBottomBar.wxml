@@ -1,0 +1,14 @@
+<!--pages/cart/bottom-bar/MyBottomBar.wxml-->
+<view class='bottom-bar'>
+  <view class='check-box' bindtap="toSelectAll">
+    <MyCheckIcon isChecked="{{selected}}"/>
+    <view>全选</view>
+  </view>
+  <view class='counter'>
+    总计: ¥{{price}}
+  </view>
+  <view class='payment' bindtap="buy">
+    去结算({{counter}})
+  </view>
+</view>
+

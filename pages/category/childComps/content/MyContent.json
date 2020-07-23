@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "MyGoods": "/components/goods/MyGoods",
+    "MyTabControl": "/components/tab-control/MyTabControl"
+  }
+}

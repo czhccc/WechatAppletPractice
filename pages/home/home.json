@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "MySwiper": "/components/swiper/MySwiper",
+    "MyTabControl": "/components/tab-control/MyTabControl",
+    "MyGoods": "/components/goods/MyGoods",
+    "MyBackTop": "/components/back-top/MyBackTop",
+    "MyRecommend": "./childComps/recommend/MyRecommend",
+    "MyPopular": "./childComps/popular/MyPopular"
+  }
+}

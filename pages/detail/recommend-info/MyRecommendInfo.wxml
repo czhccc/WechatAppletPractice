@@ -1,0 +1,7 @@
+<!--pages/detail/recommend-info/MyRecommendInfo.wxml-->
+<view class='recommend'>
+  <view class='header'>商品推荐</view>
+  <view class='content'>
+    <MyGoods goodslist="{{recommends}}"/>
+  </view>
+</view>

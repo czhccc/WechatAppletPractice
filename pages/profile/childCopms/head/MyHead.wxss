@@ -1,0 +1,55 @@
+/* pages/profile/childCopms/head/MyHead.wxss */
+.header {
+	background: #ff5777;
+	height: 170rpx;
+	color: white;
+	position: relative;
+}
+
+.avatar image {
+	width: 140rpx;
+	height: 140rpx;
+	background: #f2f2f2;
+	border-radius: 70rpx;
+	margin-left: 20px;
+	vertical-align: middle;
+
+}
+
+.phone image {
+	width: 36rpx;
+	height: 36rpx;
+}
+
+.login-info {
+	position: absolute;
+	margin-left: 220rpx;
+	margin-top: -120rpx;
+	width: 300rpx;
+}
+
+.login {
+	font-size: 36rpx;
+}
+
+.phone {
+	font-size: 28rpx;
+	margin-top: 10px;
+}
+
+.text {
+	position: absolute;
+	margin-top: -2rpx;
+	padding-left: 5rpx;
+}
+
+.arrow {
+	position: absolute;
+	margin-left: 650rpx;
+	margin-top: -120rpx;
+}
+
+.arrow image {
+	width: 90rpx;
+	height: 90rpx;
+}

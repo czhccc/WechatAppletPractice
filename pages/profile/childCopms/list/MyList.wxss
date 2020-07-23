@@ -1,0 +1,28 @@
+/* pages/profile/childCopms/list/MyList.wxss */
+.list {
+	border-top: 36rpx solid #f8f8f8;
+}
+
+.item {
+	height: 100rpx;
+	line-height: 100rpx;
+	background: white;
+	font-size: 32rpx;
+	margin-left: 30rpx;
+	border-bottom: 1rpx solid #f8f8f8;
+}
+
+.item:last-child {
+	border-bottom: none;
+}
+
+.item image {
+	width: 40rpx;
+	height: 40rpx;
+	vertical-align: middle;
+}
+
+.item text {
+	vertical-align: middle;
+	margin-left: 16rpx;
+}
