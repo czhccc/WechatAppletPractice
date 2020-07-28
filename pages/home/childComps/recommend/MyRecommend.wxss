@@ -11,11 +11,11 @@
   text-align: center;
 }
 
-.recommend-item image {
+.image {
   width: 160rpx;
   height: 160rpx;
 }
 
-.recommend-item text {
+.text {
   font-size: 28rpx;
 }

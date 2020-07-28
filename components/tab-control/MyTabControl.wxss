@@ -18,7 +18,7 @@
   padding-bottom: 3px;
 }
 
-.tab-item.active text {
+.text {
   padding: 16rpx 10rpx;
   border-bottom: 6rpx solid #ff5777;
 }
