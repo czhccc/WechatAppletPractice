@@ -22,3 +22,7 @@
   padding: 16rpx 10rpx;
   border-bottom: 6rpx solid #ff5777;
 }
+
+.text {
+  font-size: 35rpx;
+}

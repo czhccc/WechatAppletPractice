@@ -34,12 +34,12 @@
 
 .phone {
 	font-size: 28rpx;
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .text {
 	position: absolute;
-	margin-top: -2rpx;
+	margin-top: -6rpx;
 	padding-left: 5rpx;
 }
 
@@ -52,4 +52,10 @@
 .arrow image {
 	width: 90rpx;
 	height: 90rpx;
+}
+
+.login {
+	color: white;
+	background: #ff5777;
+	
 }

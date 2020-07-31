@@ -35,7 +35,26 @@ Page({
 
     // 请求推荐商品的数据
     this._getRecommends()
-	},
+  },
+  
+  /**
+   * 页面上拉触底事件的处理函数
+   */
+  onReachBottom: function () {
+    getRecommends().then(res => {
+      console.log('到达底部，加载新的数据')
+      const recommends = this.data.recommends
+      const data = res.data.data.list
+      
+      recommends.push(...data)
+
+		  this.setData({
+			  recommends
+      })
+      
+      console.log(this.data.recommends)
+		})
+  },
 
 	/* --------------------- 网络请求函数 --------------------- */
 	_getDetailData() {
@@ -78,10 +97,11 @@ Page({
 	// 获取商品推荐数据
 	_getRecommends() {
     getRecommends().then(res => {
-      this.setData({
-        recommends: res.data.data.list
+		  this.setData({
+			  recommends: res.data.data.list
       })
-    })
+
+		})
   },
 
   /* --------------------- 事件监听函数 --------------------- */

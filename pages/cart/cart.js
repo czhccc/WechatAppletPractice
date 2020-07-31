@@ -108,7 +108,11 @@ Page({
 
   // 去结算
   buy() {
-    console.log('买买买买买买买买')
+    wx.showToast({
+      title: `已购买${this.data.totalCounter}件商品`,
+      icon: 'success',
+      duration: 1500
+    })
   }
 
 })

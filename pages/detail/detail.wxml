@@ -9,4 +9,4 @@
 	<MyRecommendInfo recommends="{{recommends}}" /> <!-- 商品推荐数据 -->
 </scroll-view>
 
-<MyBottomBar bind:addCart="addCart" />
+<MyBottomBar class="buttomBar" bind:addCart="addCart" />

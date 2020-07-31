@@ -1,13 +1,13 @@
 {
   "usingComponents": {
     "MySwiper": "/components/swiper/MySwiper",
-    "MyBaseInfo": "./base-info/MyBaseInfo",
-    "MyShopInfo": "./shop-info/MyShopInfo",
-    "MyDetailInfo": "./detail-info/MyDetailInfo",
-    "MyParamInfo": "./param-info/MyParamInfo",
-    "MyCommentInfo": "./comment-info/MyCommentInfo",
-    "MyRecommendInfo": "./recommend-info/MyRecommendInfo",
-    "MyBottomBar": "./bottom-bar/MyBottomBar"
+    "MyBaseInfo": "./childComps/base-info/MyBaseInfo",
+    "MyShopInfo": "./childComps/shop-info/MyShopInfo",
+    "MyDetailInfo": "./childComps/detail-info/MyDetailInfo",
+    "MyParamInfo": "./childComps/param-info/MyParamInfo",
+    "MyCommentInfo": "./childComps/comment-info/MyCommentInfo",
+    "MyRecommendInfo": "./childComps/recommend-info/MyRecommendInfo",
+    "MyBottomBar": "./childComps/bottom-bar/MyBottomBar"
   },
   "navigationBarTitleText": "商品详情"
 }

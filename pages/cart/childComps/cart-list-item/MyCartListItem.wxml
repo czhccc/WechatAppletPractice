@@ -4,7 +4,7 @@
     <MyCheckIcon bindtap='onCheckClick' data-index="{{index}}" isChecked="{{goods.checked}}"/>
   </view>
   <view class='item-img'>
-    <image src="{{goods.imageURL}}" mode='aspectFill'/>
+    <image class="image" src="{{goods.imageURL}}" mode='aspectFill'/>
   </view>
   <view class='item-info'>
     <view class='title'>{{goods.title}}</view>

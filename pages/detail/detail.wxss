@@ -1,8 +1,22 @@
 /* pages/detail/detail.wxss */
-.detail {
+/* .detail {
   height: calc(100% - 120rpx);
+} */
+
+.detail {
+  height: 100%;
+  margin-bottom: 110rpx;
 }
 
 .swiper swiper {
   height: 800rpx;
+}
+
+.buttomBar {
+  background: white;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
 }

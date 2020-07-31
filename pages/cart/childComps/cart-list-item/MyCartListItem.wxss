@@ -14,7 +14,7 @@
   width: 200rpx;
 }
 
-.item-img image {
+.image {
   width: 180rpx;
   height: 240rpx;
   border-radius: 16rpx;
@@ -25,7 +25,7 @@
   width: 300rpx;
 }
 
-.item-info .title {
+.title {
   font-size: 34rpx;
   font-weight: 700;
   color: #333;
@@ -34,7 +34,7 @@
   white-space: nowrap;
 }
 
-.item-info .desc {
+.desc {
   font-size: 28rpx;
   margin-top: 20rpx;
   overflow: hidden;

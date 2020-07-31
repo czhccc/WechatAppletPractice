@@ -78,6 +78,7 @@ Page({
       // console.log(err)
     })
   },
+
   // 请求商品数据
   _getGoodsData(type) {
     // 获取页码

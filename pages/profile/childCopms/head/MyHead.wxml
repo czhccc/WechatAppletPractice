@@ -1,10 +1,14 @@
 <!--pages/profile/childCopms/head/MyHead.wxml-->
 <view class="header">
-	<view class="avatar">
-		<image src="/assets/images/profile/avatar.png" />
+	<view class="avatar" >
+		<image src="{{userInfo.avatarUrl ? userInfo.avatarUrl : '/assets/images/profile/avatar.png'}}" />
 	</view>
 	<view class="login-info">
-		<view class="login">登录/注册</view>
+		<button class="login" 
+						open-type="getUserInfo" 
+						bindgetuserinfo="getUserInfo" >
+						{{userInfo.nickName ? userInfo.nickName : '登录/注册'}}
+		</button>
 		<view class="phone">
 			<image src="/assets/images/profile/phone.png" />
 			<text class="text">暂无绑定手机号</text>
